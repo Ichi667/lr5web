@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>№5 Варіант 4</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <main class="wrapper" id="app">
+    <section class="area area1" id="block1">
+      <h2>Блок 1</h2>
+      <p id="text1">Початковий текст у блоці 1. Натисни «Створити список» щоб додати нумерований список.</p>
+      <a href="#" class="make-list" data-block="1">Створити список тут</a>
+    </section>
+
+    <section class="area area2" id="block2">
+      <h2>Блок 2</h2>
+      <p>Тут перевіряємо «курсив». Встанови радіокнопку і наведи курсор на цей блок.</p>
+      <form class="inline-form" id="italic-form" aria-label="Налаштування курсиву">
+        <label><input type="radio" name="italic" value="on"> Увімкнути курсив</label>
+        <label><input type="radio" name="italic" value="off"> Вимкнути курсив</label>
+      </form>
+      <a href="#" class="make-list" data-block="2">Створити список тут</a>
+    </section>
+
+    <section class="area area3" id="block3">
+      <h2>Блок 3</h2>
+      <div id="rhombus-area"></div>
+      <div id="triangle-section">
+        <h3>Трикутник із довжин сторін</h3>
+        <form id="triangle-form">
+          <label>Сторона a <input type="number" step="any" name="a" required></label>
+          <label>Сторона b <input type="number" step="any" name="b" required></label>
+          <label>Сторона c <input type="number" step="any" name="c" required></label>
+          <button type="submit">Перевірити</button>
+        </form>
+      </div>
+      <a href="#" class="make-list" data-block="3">Створити список тут</a>
+    </section>
+
+    <section class="area area4" id="block4">
+      <h2>Блок 4</h2>
+      <p>Вузька права колонка для контенту.</p>
+      <a href="#" class="make-list" data-block="4">Створити список тут</a>
+    </section>
+
+    <section class="area area5" id="block5">
+      <h2>Блок 5</h2>
+      <p>Нижня смуга під блоками 2 і 3.</p>
+      <a href="#" class="make-list" data-block="5">Створити список тут</a>
+    </section>
+
+    <section class="area area6" id="block6">
+      <h2>Блок 6</h2>
+      <p id="text6">Початковий текст у блоці 6. Після завантаження сторінки текст 1 і 6 міняються місцями.</p>
+      <a href="#" class="make-list" data-block="6">Створити список тут</a>
+    </section>
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
